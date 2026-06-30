@@ -115,7 +115,7 @@
 
   let isDown = false, startX = 0, startScroll = 0, moved = false;
   let autoplay = !reduceMotion;
-  let speed = 0.6; // px per frame, to the right
+  let speed = 0.5; // px per frame, to the right
 
   function updateFill() {
     const lw = loopWidth();
